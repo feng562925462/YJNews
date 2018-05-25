@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1896030020B7AE1E007FF0AB /* YJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189602FF20B7AE1E007FF0AB /* YJTabBarController.swift */; };
+		1896030220B7B1DA007FF0AB /* Foundation+YJExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896030120B7B1DA007FF0AB /* Foundation+YJExtension.swift */; };
+		1896030420B7B1F4007FF0AB /* UIKit+YJExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896030320B7B1F4007FF0AB /* UIKit+YJExtension.swift */; };
+		1896030620B7B250007FF0AB /* YJGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896030520B7B250007FF0AB /* YJGlobal.swift */; };
+		1896030820B7B3A4007FF0AB /* YJNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896030720B7B3A4007FF0AB /* YJNavigationViewController.swift */; };
+		1896030A20B7B75F007FF0AB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896030920B7B75F007FF0AB /* HomeViewController.swift */; };
+		1896030C20B7B768007FF0AB /* SmallVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896030B20B7B768007FF0AB /* SmallVideoViewController.swift */; };
+		1896030E20B7B774007FF0AB /* WatermelonVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896030D20B7B774007FF0AB /* WatermelonVideoViewController.swift */; };
+		1896031020B7B77C007FF0AB /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896030F20B7B77C007FF0AB /* MineViewController.swift */; };
+		1896031220B7B785007FF0AB /* HeadlinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896031120B7B785007FF0AB /* HeadlinesViewController.swift */; };
+		1896031520B7BA14007FF0AB /* RedPackageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896031420B7BA14007FF0AB /* RedPackageViewController.swift */; };
 		18A7CFD220B7A2A100456F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A7CFD120B7A2A100456F90 /* AppDelegate.swift */; };
-		18A7CFD420B7A2A200456F90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A7CFD320B7A2A200456F90 /* ViewController.swift */; };
 		18A7CFD720B7A2A200456F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A7CFD520B7A2A200456F90 /* Main.storyboard */; };
 		18A7CFD920B7A2A300456F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A7CFD820B7A2A300456F90 /* Assets.xcassets */; };
 		18A7CFDC20B7A2A300456F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A7CFDA20B7A2A300456F90 /* LaunchScreen.storyboard */; };
@@ -38,9 +48,19 @@
 
 /* Begin PBXFileReference section */
 		01181E8F112D8912DFFDBE83 /* Pods_YJNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		189602FF20B7AE1E007FF0AB /* YJTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJTabBarController.swift; sourceTree = "<group>"; };
+		1896030120B7B1DA007FF0AB /* Foundation+YJExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation+YJExtension.swift"; sourceTree = "<group>"; };
+		1896030320B7B1F4007FF0AB /* UIKit+YJExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+YJExtension.swift"; sourceTree = "<group>"; };
+		1896030520B7B250007FF0AB /* YJGlobal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJGlobal.swift; sourceTree = "<group>"; };
+		1896030720B7B3A4007FF0AB /* YJNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YJNavigationViewController.swift; sourceTree = "<group>"; };
+		1896030920B7B75F007FF0AB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1896030B20B7B768007FF0AB /* SmallVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallVideoViewController.swift; sourceTree = "<group>"; };
+		1896030D20B7B774007FF0AB /* WatermelonVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatermelonVideoViewController.swift; sourceTree = "<group>"; };
+		1896030F20B7B77C007FF0AB /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		1896031120B7B785007FF0AB /* HeadlinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesViewController.swift; sourceTree = "<group>"; };
+		1896031420B7BA14007FF0AB /* RedPackageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedPackageViewController.swift; sourceTree = "<group>"; };
 		18A7CFCE20B7A2A100456F90 /* YJNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A7CFD120B7A2A100456F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18A7CFD320B7A2A200456F90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18A7CFD620B7A2A200456F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18A7CFD820B7A2A300456F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A7CFDB20B7A2A300456F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -89,6 +109,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		189602F720B7AC96007FF0AB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1896031320B7BA0A007FF0AB /* RedPackage */,
+				189602FE20B7ADE1007FF0AB /* Headlines */,
+				189602FD20B7AD00007FF0AB /* Mine */,
+				189602FC20B7ACFD007FF0AB /* WatermelonVideo */,
+				189602FB20B7ACFA007FF0AB /* SmallVideo */,
+				189602FA20B7ACB9007FF0AB /* Home */,
+				189602F920B7ACAF007FF0AB /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		189602F920B7ACAF007FF0AB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				189602FF20B7AE1E007FF0AB /* YJTabBarController.swift */,
+				1896030120B7B1DA007FF0AB /* Foundation+YJExtension.swift */,
+				1896030320B7B1F4007FF0AB /* UIKit+YJExtension.swift */,
+				1896030520B7B250007FF0AB /* YJGlobal.swift */,
+				1896030720B7B3A4007FF0AB /* YJNavigationViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		189602FA20B7ACB9007FF0AB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1896030920B7B75F007FF0AB /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		189602FB20B7ACFA007FF0AB /* SmallVideo */ = {
+			isa = PBXGroup;
+			children = (
+				1896030B20B7B768007FF0AB /* SmallVideoViewController.swift */,
+			);
+			path = SmallVideo;
+			sourceTree = "<group>";
+		};
+		189602FC20B7ACFD007FF0AB /* WatermelonVideo */ = {
+			isa = PBXGroup;
+			children = (
+				1896030D20B7B774007FF0AB /* WatermelonVideoViewController.swift */,
+			);
+			path = WatermelonVideo;
+			sourceTree = "<group>";
+		};
+		189602FD20B7AD00007FF0AB /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				1896030F20B7B77C007FF0AB /* MineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		189602FE20B7ADE1007FF0AB /* Headlines */ = {
+			isa = PBXGroup;
+			children = (
+				1896031120B7B785007FF0AB /* HeadlinesViewController.swift */,
+			);
+			path = Headlines;
+			sourceTree = "<group>";
+		};
+		1896031320B7BA0A007FF0AB /* RedPackage */ = {
+			isa = PBXGroup;
+			children = (
+				1896031420B7BA14007FF0AB /* RedPackageViewController.swift */,
+			);
+			path = RedPackage;
+			sourceTree = "<group>";
+		};
 		18A7CFC520B7A2A100456F90 = {
 			isa = PBXGroup;
 			children = (
@@ -114,8 +208,8 @@
 		18A7CFD020B7A2A100456F90 /* YJNews */ = {
 			isa = PBXGroup;
 			children = (
+				189602F720B7AC96007FF0AB /* Classes */,
 				18A7CFD120B7A2A100456F90 /* AppDelegate.swift */,
-				18A7CFD320B7A2A200456F90 /* ViewController.swift */,
 				18A7CFD520B7A2A200456F90 /* Main.storyboard */,
 				18A7CFD820B7A2A300456F90 /* Assets.xcassets */,
 				18A7CFDA20B7A2A300456F90 /* LaunchScreen.storyboard */,
@@ -176,6 +270,7 @@
 				18A7CFCA20B7A2A100456F90 /* Sources */,
 				18A7CFCB20B7A2A100456F90 /* Frameworks */,
 				18A7CFCC20B7A2A100456F90 /* Resources */,
+				F0D0BE14BFB5029E980DEDE8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -331,6 +426,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F0D0BE14BFB5029E980DEDE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YJNews/Pods-YJNews-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftTheme/SwiftTheme.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftTheme.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJNews/Pods-YJNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FCA552C0274E27BF7B5FE468 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,7 +469,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A7CFD420B7A2A200456F90 /* ViewController.swift in Sources */,
+				1896030E20B7B774007FF0AB /* WatermelonVideoViewController.swift in Sources */,
+				1896031020B7B77C007FF0AB /* MineViewController.swift in Sources */,
+				1896030820B7B3A4007FF0AB /* YJNavigationViewController.swift in Sources */,
+				1896030420B7B1F4007FF0AB /* UIKit+YJExtension.swift in Sources */,
+				1896031520B7BA14007FF0AB /* RedPackageViewController.swift in Sources */,
+				1896030A20B7B75F007FF0AB /* HomeViewController.swift in Sources */,
+				1896030220B7B1DA007FF0AB /* Foundation+YJExtension.swift in Sources */,
+				1896030620B7B250007FF0AB /* YJGlobal.swift in Sources */,
+				1896031220B7B785007FF0AB /* HeadlinesViewController.swift in Sources */,
+				1896030C20B7B768007FF0AB /* SmallVideoViewController.swift in Sources */,
+				1896030020B7AE1E007FF0AB /* YJTabBarController.swift in Sources */,
 				18A7CFD220B7A2A100456F90 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

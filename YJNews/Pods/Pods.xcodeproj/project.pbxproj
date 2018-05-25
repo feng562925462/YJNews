@@ -7,54 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095A8D9B7FC39714167530A4FE77FD07 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A40C381AE4B593C538C2A309B43D974 /* ThemePicker.swift */; };
+		0AA2E56B1AD52CA5A7C8EDABA8760CE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0F19152C5A83A1BB8A65B2442ADA8951 /* ThemeDictionaryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF8F1E0AF5C1D9C149BA1B2DE1789E8 /* ThemeDictionaryPicker.swift */; };
+		0F93BC82C244B33A7D9A124FF463DCC8 /* ThemeCGColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157E64BE09118D4DF550FFDF68064948 /* ThemeCGColorPicker.swift */; };
 		1521E1243162FFF60C9DD031A347CDF6 /* Pods-YJNewsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB59F2E1DA198EE88044122E8D260A1 /* Pods-YJNewsTests-dummy.m */; };
-		2C3F9E2B59E33222400D80062788C831 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		25817BA3203FCA059A9340ED451BB451 /* ThemeImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BED3AB8EC26AF968FC2739B70A7FBCD /* ThemeImagePicker.swift */; };
+		262164490960324FE77E1A17526CACF2 /* ThemeStatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE0DD34669E75FBAF6DD96CD36CABFF /* ThemeStatePicker.swift */; };
+		2EB02685AF2629CA4DF17F2B2C65227F /* ThemeBarStylePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C1417E4BCBFFC7ABC4480616AE328D /* ThemeBarStylePicker.swift */; };
+		2F3DE59477CE5FBA90841CAC5173FF7C /* ThemeStatusBarStylePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011FBBDCC8BFF6C8DE9AD25E5EFE480A /* ThemeStatusBarStylePicker.swift */; };
+		3C05CFCEACCECF353D9731607E5D0E09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4F67E8BD8E14B9483FD2B4D133B7F943 /* ThemeKeyboardAppearancePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD795B5AE7D08C23ECC591B77E175EA0 /* ThemeKeyboardAppearancePicker.swift */; };
 		54CB931A46F7BE6A14C73E2C641E1825 /* Pods-YJNewsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCFC0FFCACEC80F14DF263AB75214C7 /* Pods-YJNewsUITests-dummy.m */; };
+		5DACE1B8527B23BD4B90DE7DF8C47445 /* Pods-YJNews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A4D2ED202F1A97420D906013C17A5CF /* Pods-YJNews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62FD3DEB32BCAF12F9342F47F0C9E479 /* ThemeFontPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094B576F64CF456FAE4AF70A21E301DD /* ThemeFontPicker.swift */; };
+		63DFA2633AE9DC6E58594178C6EAF446 /* SwiftTheme-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 144A2CEFD74E34E2AEE9F9612FD4564C /* SwiftTheme-dummy.m */; };
 		646BA4020A930C781E377B2CEFF6B9F2 /* Pods-YJNewsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70435BB1F1325DD1E32BBBBF585FAD5D /* Pods-YJNewsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72650DC8877A703AA652843AD38CD1CC /* Pods-YJNewsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4966A05DBA14009818FDCD936E6DEB72 /* Pods-YJNewsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8819480B2160831661DFD2F5EF94A641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C930C06794E8C2454781B2AD74BED9A7 /* Pods-YJNews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A40D22A22721329AA33BB47C74AC6 /* Pods-YJNews-dummy.m */; };
-		D1EBABAC653CE002393D7164201A4E6A /* Pods-YJNews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A4D2ED202F1A97420D906013C17A5CF /* Pods-YJNews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		937FE565B6EEEAA232BAFAFD5F94927E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA42BD799CBB03597CE2630D13EEA73C /* UIColorExtension.swift */; };
+		972A5F4F22DD028D8420A52BEC2CFC9B /* ThemeManager+Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A165FD1B5088B9C2A4171A0FA8B32B6 /* ThemeManager+Index.swift */; };
+		979BF604AFB02C66A81CCC9FC984628D /* Pods-YJNews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A40D22A22721329AA33BB47C74AC6 /* Pods-YJNews-dummy.m */; };
+		A9BDABBF1918FB3491E0FB13E66E8FC6 /* UIKit+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626B042D52B0F79C793CC6FFE76AB4D7 /* UIKit+Theme.swift */; };
+		C0563D5F4F8921812D37FB95C54115A7 /* ThemeManager+OC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2868D699B7923F44454367D0453640A /* ThemeManager+OC.swift */; };
+		C070F6ABC6E0B49978EABFD6BA287C9E /* ThemeManager+Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8998813F0595CDAB9228DA4B5E4DC770 /* ThemeManager+Plist.swift */; };
+		CE6421FBDF54F8F668B37A9973D60B27 /* ThemeCGFloatPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02410112A15789D3C338877E0BE580E3 /* ThemeCGFloatPicker.swift */; };
+		D023C9101AFD6C955E88F45FCAC1CAF5 /* SwiftTheme-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9A7FF2CE2781EEE9592292A4D71AF2B /* SwiftTheme-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D484CB47762E4395FDAF1DB4F6DBD011 /* ThemeColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F501A70D34991717CFCA56B890B4BCC /* ThemeColorPicker.swift */; };
+		D6DCB3FC9AE8BA1A6BDE69899E8BDA22 /* NSObject+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748FDE7C004FD2C213229294968E9DD1 /* NSObject+Theme.swift */; };
+		DDC9E49E9D8B0F4F0B2A412138E574DA /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8132DE87B72C4AD57A5402673C41D33 /* ThemeManager.swift */; };
+		DE9009C8444A0B655D8F3403D0A42C24 /* ThemeActivityIndicatorViewStylePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B6DF125217D06F40BE4E9DE5E4CA9E /* ThemeActivityIndicatorViewStylePicker.swift */; };
 		F97605DD790BFC032A4C956996BF1196 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		32DE3CDF5E14707A485A2FBE83F0E539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C22525A5CBDBDE07BB6FF5E5356B617;
+			remoteInfo = SwiftTheme;
+		};
 		5BC10AE5D23A2FDC8EB251BE059BFE0E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 09E76B3C8A5E0E58863CB5342BDE17F6;
+			remoteGlobalIDString = E3703099F2BDFEF3FE33218EB18C6F3F;
 			remoteInfo = "Pods-YJNews";
 		};
 		94524E7E22DC4DC8E46FCA42E0C532D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 09E76B3C8A5E0E58863CB5342BDE17F6;
+			remoteGlobalIDString = E3703099F2BDFEF3FE33218EB18C6F3F;
 			remoteInfo = "Pods-YJNews";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		011FBBDCC8BFF6C8DE9AD25E5EFE480A /* ThemeStatusBarStylePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeStatusBarStylePicker.swift; path = Source/ThemeStatusBarStylePicker.swift; sourceTree = "<group>"; };
+		02410112A15789D3C338877E0BE580E3 /* ThemeCGFloatPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeCGFloatPicker.swift; path = Source/ThemeCGFloatPicker.swift; sourceTree = "<group>"; };
 		0673A280C0DBE7BBFA873CFA6EDD444B /* Pods-YJNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		083C7B89E26CB3B6F19481029F11D478 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0940740C417D1D3770FE6ECE7AA65E28 /* Pods-YJNews-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJNews-frameworks.sh"; sourceTree = "<group>"; };
+		094B576F64CF456FAE4AF70A21E301DD /* ThemeFontPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeFontPicker.swift; path = Source/ThemeFontPicker.swift; sourceTree = "<group>"; };
+		1021E374F147891B6D74456D4AACAA4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		121F02C448EC226ED9F64A5AB5A9CBD2 /* SwiftTheme-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftTheme-prefix.pch"; sourceTree = "<group>"; };
+		144A2CEFD74E34E2AEE9F9612FD4564C /* SwiftTheme-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftTheme-dummy.m"; sourceTree = "<group>"; };
+		157E64BE09118D4DF550FFDF68064948 /* ThemeCGColorPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeCGColorPicker.swift; path = Source/ThemeCGColorPicker.swift; sourceTree = "<group>"; };
 		196998A55EDC92A8BC81E9BE5362DB32 /* Pods-YJNewsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJNewsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		21C6A6D6CF2241C966CF2C4DD88797C1 /* Pods-YJNews-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJNews-acknowledgements.plist"; sourceTree = "<group>"; };
+		23C1417E4BCBFFC7ABC4480616AE328D /* ThemeBarStylePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeBarStylePicker.swift; path = Source/ThemeBarStylePicker.swift; sourceTree = "<group>"; };
+		2A40C381AE4B593C538C2A309B43D974 /* ThemePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemePicker.swift; path = Source/ThemePicker.swift; sourceTree = "<group>"; };
 		2DB59F2E1DA198EE88044122E8D260A1 /* Pods-YJNewsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJNewsTests-dummy.m"; sourceTree = "<group>"; };
+		32836DC9C78CF23D89D4F9175AF10226 /* SwiftTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftTheme.framework; path = SwiftTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37247112D3C84206CF8F46D1F13F0930 /* Pods-YJNewsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJNewsUITests-frameworks.sh"; sourceTree = "<group>"; };
-		38AC9F142E4133CA9693FE3D9AD5C16C /* Pods_YJNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJNews.framework; path = "Pods-YJNews.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37DE7672AFEB979E1907EFBA4A01CA04 /* Pods_YJNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJNewsTests.framework; path = "Pods-YJNewsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		434F5CCA39B39A57413EC15B555D89F2 /* Pods-YJNews-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJNews-resources.sh"; sourceTree = "<group>"; };
+		48DEF6AB1622F735BEE0F78E860E0D5E /* SwiftTheme.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftTheme.modulemap; sourceTree = "<group>"; };
 		4966A05DBA14009818FDCD936E6DEB72 /* Pods-YJNewsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YJNewsUITests-umbrella.h"; sourceTree = "<group>"; };
+		4BED3AB8EC26AF968FC2739B70A7FBCD /* ThemeImagePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeImagePicker.swift; path = Source/ThemeImagePicker.swift; sourceTree = "<group>"; };
 		5A4D2ED202F1A97420D906013C17A5CF /* Pods-YJNews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YJNews-umbrella.h"; sourceTree = "<group>"; };
 		5C56254E59DFB1A2A63C4B777245C2F8 /* Pods-YJNews-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJNews-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CB9DF68828E2690B0AE8EE896C89251 /* Pods_YJNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJNews.framework; path = "Pods-YJNews.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F501A70D34991717CFCA56B890B4BCC /* ThemeColorPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeColorPicker.swift; path = Source/ThemeColorPicker.swift; sourceTree = "<group>"; };
+		626B042D52B0F79C793CC6FFE76AB4D7 /* UIKit+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Theme.swift"; path = "Source/UIKit+Theme.swift"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6EF8F1E0AF5C1D9C149BA1B2DE1789E8 /* ThemeDictionaryPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeDictionaryPicker.swift; path = Source/ThemeDictionaryPicker.swift; sourceTree = "<group>"; };
 		70435BB1F1325DD1E32BBBBF585FAD5D /* Pods-YJNewsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YJNewsTests-umbrella.h"; sourceTree = "<group>"; };
+		748FDE7C004FD2C213229294968E9DD1 /* NSObject+Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Theme.swift"; path = "Source/NSObject+Theme.swift"; sourceTree = "<group>"; };
 		7CA156B5F698EC0123DF0B0337312E0A /* Pods-YJNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJNewsTests.release.xcconfig"; sourceTree = "<group>"; };
 		7D0A40D22A22721329AA33BB47C74AC6 /* Pods-YJNews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJNews-dummy.m"; sourceTree = "<group>"; };
 		7D6FD8354A06B4BC045301E39EDD65CC /* Pods-YJNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7DAAF1F6D6668ECDD2583385AC75AB9A /* Pods-YJNewsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJNewsTests-resources.sh"; sourceTree = "<group>"; };
-		893455C4C74DBBD8EC22CC58454656F7 /* Pods_YJNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJNewsTests.framework; path = "Pods-YJNewsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8998813F0595CDAB9228DA4B5E4DC770 /* ThemeManager+Plist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ThemeManager+Plist.swift"; path = "Source/ThemeManager+Plist.swift"; sourceTree = "<group>"; };
+		8A165FD1B5088B9C2A4171A0FA8B32B6 /* ThemeManager+Index.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ThemeManager+Index.swift"; path = "Source/ThemeManager+Index.swift"; sourceTree = "<group>"; };
 		8A3C2B202FADBA1562A374C66E025ED2 /* Pods-YJNewsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJNewsTests-frameworks.sh"; sourceTree = "<group>"; };
 		8B2DC1634C48FC5FA02217D862781AAE /* Pods-YJNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJNews.release.xcconfig"; sourceTree = "<group>"; };
 		8F43425017AD6DB232E250C466090FE7 /* Pods-YJNews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YJNews.modulemap"; sourceTree = "<group>"; };
@@ -63,22 +110,30 @@
 		9F288E6FC48248DC40A083946558469E /* Pods-YJNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A07EE8C777039690C697FAA38F0A16CF /* Pods-YJNewsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJNewsUITests-resources.sh"; sourceTree = "<group>"; };
 		A76E8E4C035CBDBAFDE6E082D468B00A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8132DE87B72C4AD57A5402673C41D33 /* ThemeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeManager.swift; path = Source/ThemeManager.swift; sourceTree = "<group>"; };
 		A8C0BEC046C8183D9F00DA7AC30AEA21 /* Pods-YJNewsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YJNewsTests.modulemap"; sourceTree = "<group>"; };
+		AD795B5AE7D08C23ECC591B77E175EA0 /* ThemeKeyboardAppearancePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeKeyboardAppearancePicker.swift; path = Source/ThemeKeyboardAppearancePicker.swift; sourceTree = "<group>"; };
 		B15BE02B1E7D4B58696C8A0BD5222DB2 /* Pods-YJNewsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJNewsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BC6753BC948993CCD1CDB3AD7B690705 /* Pods-YJNewsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YJNewsUITests.modulemap"; sourceTree = "<group>"; };
 		BCCFC0FFCACEC80F14DF263AB75214C7 /* Pods-YJNewsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJNewsUITests-dummy.m"; sourceTree = "<group>"; };
-		C4F0021FCE1405482DF3BE0D56AD83DE /* Pods_YJNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJNewsUITests.framework; path = "Pods-YJNewsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF154B90CDC0B4BA95AE36C43CB616A7 /* SwiftTheme.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftTheme.xcconfig; sourceTree = "<group>"; };
+		C2868D699B7923F44454367D0453640A /* ThemeManager+OC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ThemeManager+OC.swift"; path = "Source/ThemeManager+OC.swift"; sourceTree = "<group>"; };
 		D017F6065B29BF61827825FF0E6AF945 /* Pods-YJNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJNews.debug.xcconfig"; sourceTree = "<group>"; };
+		D9A7FF2CE2781EEE9592292A4D71AF2B /* SwiftTheme-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftTheme-umbrella.h"; sourceTree = "<group>"; };
+		DA42BD799CBB03597CE2630D13EEA73C /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Source/UIColorExtension.swift; sourceTree = "<group>"; };
+		DAE0DD34669E75FBAF6DD96CD36CABFF /* ThemeStatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeStatePicker.swift; path = Source/ThemeStatePicker.swift; sourceTree = "<group>"; };
 		E0C0042DFC04CADB18E9ADE94C56D12B /* Pods-YJNewsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJNewsTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E10F599F25696D331A095848C46CCEA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9B6DF125217D06F40BE4E9DE5E4CA9E /* ThemeActivityIndicatorViewStylePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThemeActivityIndicatorViewStylePicker.swift; path = Source/ThemeActivityIndicatorViewStylePicker.swift; sourceTree = "<group>"; };
+		FB5C84FA6D0E5B8779EB8031DB843E48 /* Pods_YJNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJNewsUITests.framework; path = "Pods-YJNewsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		664717BFB9A5DEC85BA583334E8BA4EA /* Frameworks */ = {
+		9737DE889F1037BB8E1A8F17833E39AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C3F9E2B59E33222400D80062788C831 /* Foundation.framework in Frameworks */,
+				3C05CFCEACCECF353D9731607E5D0E09 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +142,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8819480B2160831661DFD2F5EF94A641 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF971DDBFAE865214C6FDE879B618054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA2E56B1AD52CA5A7C8EDABA8760CE4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +164,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AB0E7C611FA838A3BC96943D3768304 /* SwiftTheme */ = {
+			isa = PBXGroup;
+			children = (
+				748FDE7C004FD2C213229294968E9DD1 /* NSObject+Theme.swift */,
+				E9B6DF125217D06F40BE4E9DE5E4CA9E /* ThemeActivityIndicatorViewStylePicker.swift */,
+				23C1417E4BCBFFC7ABC4480616AE328D /* ThemeBarStylePicker.swift */,
+				157E64BE09118D4DF550FFDF68064948 /* ThemeCGColorPicker.swift */,
+				02410112A15789D3C338877E0BE580E3 /* ThemeCGFloatPicker.swift */,
+				5F501A70D34991717CFCA56B890B4BCC /* ThemeColorPicker.swift */,
+				6EF8F1E0AF5C1D9C149BA1B2DE1789E8 /* ThemeDictionaryPicker.swift */,
+				094B576F64CF456FAE4AF70A21E301DD /* ThemeFontPicker.swift */,
+				4BED3AB8EC26AF968FC2739B70A7FBCD /* ThemeImagePicker.swift */,
+				AD795B5AE7D08C23ECC591B77E175EA0 /* ThemeKeyboardAppearancePicker.swift */,
+				A8132DE87B72C4AD57A5402673C41D33 /* ThemeManager.swift */,
+				8A165FD1B5088B9C2A4171A0FA8B32B6 /* ThemeManager+Index.swift */,
+				C2868D699B7923F44454367D0453640A /* ThemeManager+OC.swift */,
+				8998813F0595CDAB9228DA4B5E4DC770 /* ThemeManager+Plist.swift */,
+				2A40C381AE4B593C538C2A309B43D974 /* ThemePicker.swift */,
+				DAE0DD34669E75FBAF6DD96CD36CABFF /* ThemeStatePicker.swift */,
+				011FBBDCC8BFF6C8DE9AD25E5EFE480A /* ThemeStatusBarStylePicker.swift */,
+				DA42BD799CBB03597CE2630D13EEA73C /* UIColorExtension.swift */,
+				626B042D52B0F79C793CC6FFE76AB4D7 /* UIKit+Theme.swift */,
+				64A1550D0C969E8CDB1ED09179FF159D /* Support Files */,
+			);
+			name = SwiftTheme;
+			path = SwiftTheme;
+			sourceTree = "<group>";
+		};
 		2AF1EA49A475A6B55051CD96CEE8A8B1 /* Pods-YJNewsUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +208,20 @@
 			);
 			name = "Pods-YJNewsUITests";
 			path = "Target Support Files/Pods-YJNewsUITests";
+			sourceTree = "<group>";
+		};
+		64A1550D0C969E8CDB1ED09179FF159D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1021E374F147891B6D74456D4AACAA4B /* Info.plist */,
+				48DEF6AB1622F735BEE0F78E860E0D5E /* SwiftTheme.modulemap */,
+				BF154B90CDC0B4BA95AE36C43CB616A7 /* SwiftTheme.xcconfig */,
+				144A2CEFD74E34E2AEE9F9612FD4564C /* SwiftTheme-dummy.m */,
+				121F02C448EC226ED9F64A5AB5A9CBD2 /* SwiftTheme-prefix.pch */,
+				D9A7FF2CE2781EEE9592292A4D71AF2B /* SwiftTheme-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftTheme";
 			sourceTree = "<group>";
 		};
 		6692C50C3434DD4C820CB98DD2B2053C /* Pods-YJNews */ = {
@@ -160,19 +265,18 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B9E941782A8657066FDF08832E159D59 /* Products */,
+				949E6346409E6AAACC3A62D147B39ED0 /* Pods */,
+				D1463E432AD51082D805C0AC2EDF7D1E /* Products */,
 				E75DEB4F7840A2381A9F5CB5EB2A4B8E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B9E941782A8657066FDF08832E159D59 /* Products */ = {
+		949E6346409E6AAACC3A62D147B39ED0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				38AC9F142E4133CA9693FE3D9AD5C16C /* Pods_YJNews.framework */,
-				893455C4C74DBBD8EC22CC58454656F7 /* Pods_YJNewsTests.framework */,
-				C4F0021FCE1405482DF3BE0D56AD83DE /* Pods_YJNewsUITests.framework */,
+				0AB0E7C611FA838A3BC96943D3768304 /* SwiftTheme */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -181,6 +285,17 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1463E432AD51082D805C0AC2EDF7D1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CB9DF68828E2690B0AE8EE896C89251 /* Pods_YJNews.framework */,
+				37DE7672AFEB979E1907EFBA4A01CA04 /* Pods_YJNewsTests.framework */,
+				FB5C84FA6D0E5B8779EB8031DB843E48 /* Pods_YJNewsUITests.framework */,
+				32836DC9C78CF23D89D4F9175AF10226 /* SwiftTheme.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -204,11 +319,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		98FEA75207D554237B90F14D0065F229 /* Headers */ = {
+		0FE340287DF5D79172368770D88DA53F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1EBABAC653CE002393D7164201A4E6A /* Pods-YJNews-umbrella.h in Headers */,
+				D023C9101AFD6C955E88F45FCAC1CAF5 /* SwiftTheme-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248E32230B335CE01522C47A44DCB5F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DACE1B8527B23BD4B90DE7DF8C47445 /* Pods-YJNews-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,21 +354,21 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		09E76B3C8A5E0E58863CB5342BDE17F6 /* Pods-YJNews */ = {
+		5C22525A5CBDBDE07BB6FF5E5356B617 /* SwiftTheme */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FCEB6C682D24178FF6EE9307E0610CE /* Build configuration list for PBXNativeTarget "Pods-YJNews" */;
+			buildConfigurationList = 60D65045B8333EB70AD793F20676FD0C /* Build configuration list for PBXNativeTarget "SwiftTheme" */;
 			buildPhases = (
-				A14BF9A2BBFAAAC278FF22E2AD8F7E14 /* Sources */,
-				664717BFB9A5DEC85BA583334E8BA4EA /* Frameworks */,
-				98FEA75207D554237B90F14D0065F229 /* Headers */,
+				E209CEE798EF2E8C4B191F1A5D43878D /* Sources */,
+				9737DE889F1037BB8E1A8F17833E39AC /* Frameworks */,
+				0FE340287DF5D79172368770D88DA53F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-YJNews";
-			productName = "Pods-YJNews";
-			productReference = 38AC9F142E4133CA9693FE3D9AD5C16C /* Pods_YJNews.framework */;
+			name = SwiftTheme;
+			productName = SwiftTheme;
+			productReference = 32836DC9C78CF23D89D4F9175AF10226 /* SwiftTheme.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		78BAD3A77E2938A50C9025CFCBF6290D /* Pods-YJNewsUITests */ = {
@@ -263,7 +386,7 @@
 			);
 			name = "Pods-YJNewsUITests";
 			productName = "Pods-YJNewsUITests";
-			productReference = C4F0021FCE1405482DF3BE0D56AD83DE /* Pods_YJNewsUITests.framework */;
+			productReference = FB5C84FA6D0E5B8779EB8031DB843E48 /* Pods_YJNewsUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7DC3702DA10CA01A571E9193F232352B /* Pods-YJNewsTests */ = {
@@ -281,7 +404,25 @@
 			);
 			name = "Pods-YJNewsTests";
 			productName = "Pods-YJNewsTests";
-			productReference = 893455C4C74DBBD8EC22CC58454656F7 /* Pods_YJNewsTests.framework */;
+			productReference = 37DE7672AFEB979E1907EFBA4A01CA04 /* Pods_YJNewsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E3703099F2BDFEF3FE33218EB18C6F3F /* Pods-YJNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79F0C6F975708BE95D0FA6A1AE90C47 /* Build configuration list for PBXNativeTarget "Pods-YJNews" */;
+			buildPhases = (
+				E04605DD3C614BABDCCF8EAF9A7D6050 /* Sources */,
+				BF971DDBFAE865214C6FDE879B618054 /* Frameworks */,
+				248E32230B335CE01522C47A44DCB5F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9CAB7368EDEB34334F37B1891743D3B /* PBXTargetDependency */,
+			);
+			name = "Pods-YJNews";
+			productName = "Pods-YJNews";
+			productReference = 5CB9DF68828E2690B0AE8EE896C89251 /* Pods_YJNews.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -301,13 +442,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B9E941782A8657066FDF08832E159D59 /* Products */;
+			productRefGroup = D1463E432AD51082D805C0AC2EDF7D1E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				09E76B3C8A5E0E58863CB5342BDE17F6 /* Pods-YJNews */,
+				E3703099F2BDFEF3FE33218EB18C6F3F /* Pods-YJNews */,
 				7DC3702DA10CA01A571E9193F232352B /* Pods-YJNewsTests */,
 				78BAD3A77E2938A50C9025CFCBF6290D /* Pods-YJNewsUITests */,
+				5C22525A5CBDBDE07BB6FF5E5356B617 /* SwiftTheme */,
 			);
 		};
 /* End PBXProject section */
@@ -321,19 +463,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A14BF9A2BBFAAAC278FF22E2AD8F7E14 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C930C06794E8C2454781B2AD74BED9A7 /* Pods-YJNews-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BB020299E035A9257C6E8E1AEC9D3117 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1521E1243162FFF60C9DD031A347CDF6 /* Pods-YJNewsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E04605DD3C614BABDCCF8EAF9A7D6050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979BF604AFB02C66A81CCC9FC984628D /* Pods-YJNews-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E209CEE798EF2E8C4B191F1A5D43878D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DCB3FC9AE8BA1A6BDE69899E8BDA22 /* NSObject+Theme.swift in Sources */,
+				63DFA2633AE9DC6E58594178C6EAF446 /* SwiftTheme-dummy.m in Sources */,
+				DE9009C8444A0B655D8F3403D0A42C24 /* ThemeActivityIndicatorViewStylePicker.swift in Sources */,
+				2EB02685AF2629CA4DF17F2B2C65227F /* ThemeBarStylePicker.swift in Sources */,
+				0F93BC82C244B33A7D9A124FF463DCC8 /* ThemeCGColorPicker.swift in Sources */,
+				CE6421FBDF54F8F668B37A9973D60B27 /* ThemeCGFloatPicker.swift in Sources */,
+				D484CB47762E4395FDAF1DB4F6DBD011 /* ThemeColorPicker.swift in Sources */,
+				0F19152C5A83A1BB8A65B2442ADA8951 /* ThemeDictionaryPicker.swift in Sources */,
+				62FD3DEB32BCAF12F9342F47F0C9E479 /* ThemeFontPicker.swift in Sources */,
+				25817BA3203FCA059A9340ED451BB451 /* ThemeImagePicker.swift in Sources */,
+				4F67E8BD8E14B9483FD2B4D133B7F943 /* ThemeKeyboardAppearancePicker.swift in Sources */,
+				972A5F4F22DD028D8420A52BEC2CFC9B /* ThemeManager+Index.swift in Sources */,
+				C0563D5F4F8921812D37FB95C54115A7 /* ThemeManager+OC.swift in Sources */,
+				C070F6ABC6E0B49978EABFD6BA287C9E /* ThemeManager+Plist.swift in Sources */,
+				DDC9E49E9D8B0F4F0B2A412138E574DA /* ThemeManager.swift in Sources */,
+				095A8D9B7FC39714167530A4FE77FD07 /* ThemePicker.swift in Sources */,
+				262164490960324FE77E1A17526CACF2 /* ThemeStatePicker.swift in Sources */,
+				2F3DE59477CE5FBA90841CAC5173FF7C /* ThemeStatusBarStylePicker.swift in Sources */,
+				937FE565B6EEEAA232BAFAFD5F94927E /* UIColorExtension.swift in Sources */,
+				A9BDABBF1918FB3491E0FB13E66E8FC6 /* UIKit+Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,53 +512,25 @@
 		16CFF0330E17BF8D1ACBBA52AF144013 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-YJNews";
-			target = 09E76B3C8A5E0E58863CB5342BDE17F6 /* Pods-YJNews */;
+			target = E3703099F2BDFEF3FE33218EB18C6F3F /* Pods-YJNews */;
 			targetProxy = 5BC10AE5D23A2FDC8EB251BE059BFE0E /* PBXContainerItemProxy */;
 		};
 		AA7A08F90A62387F64D260E9F2F6E67C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-YJNews";
-			target = 09E76B3C8A5E0E58863CB5342BDE17F6 /* Pods-YJNews */;
+			target = E3703099F2BDFEF3FE33218EB18C6F3F /* Pods-YJNews */;
 			targetProxy = 94524E7E22DC4DC8E46FCA42E0C532D8 /* PBXContainerItemProxy */;
+		};
+		D9CAB7368EDEB34334F37B1891743D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftTheme;
+			target = 5C22525A5CBDBDE07BB6FF5E5356B617 /* SwiftTheme */;
+			targetProxy = 32DE3CDF5E14707A485A2FBE83F0E539 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		42FACB5259A528197F357E64328A6335 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D017F6065B29BF61827825FF0E6AF945 /* Pods-YJNews.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YJNews/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YJNews/Pods-YJNews.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		54B10258573923E327CF16643345ECAF /* Release */ = {
+		2B3460B3725AA6F1486E767E530C5644 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8B2DC1634C48FC5FA02217D862781AAE /* Pods-YJNews.release.xcconfig */;
 			buildSettings = {
@@ -417,12 +558,82 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		45E92F4F85B7B06598ED5918693D6A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF154B90CDC0B4BA95AE36C43CB616A7 /* SwiftTheme.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftTheme/SwiftTheme-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftTheme/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftTheme/SwiftTheme.modulemap";
+				PRODUCT_MODULE_NAME = SwiftTheme;
+				PRODUCT_NAME = SwiftTheme;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4DEEF94E089EF8C16DC3DAC5CD5BC2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D017F6065B29BF61827825FF0E6AF945 /* Pods-YJNews.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YJNews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YJNews/Pods-YJNews.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -683,6 +894,38 @@
 			};
 			name = Debug;
 		};
+		E272BC5D7F4F133902A186D9E983EDF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF154B90CDC0B4BA95AE36C43CB616A7 /* SwiftTheme.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftTheme/SwiftTheme-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftTheme/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftTheme/SwiftTheme.modulemap";
+				PRODUCT_MODULE_NAME = SwiftTheme;
+				PRODUCT_NAME = SwiftTheme;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -695,11 +938,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FCEB6C682D24178FF6EE9307E0610CE /* Build configuration list for PBXNativeTarget "Pods-YJNews" */ = {
+		60D65045B8333EB70AD793F20676FD0C /* Build configuration list for PBXNativeTarget "SwiftTheme" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42FACB5259A528197F357E64328A6335 /* Debug */,
-				54B10258573923E327CF16643345ECAF /* Release */,
+				E272BC5D7F4F133902A186D9E983EDF2 /* Debug */,
+				45E92F4F85B7B06598ED5918693D6A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79F0C6F975708BE95D0FA6A1AE90C47 /* Build configuration list for PBXNativeTarget "Pods-YJNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DEEF94E089EF8C16DC3DAC5CD5BC2A2 /* Debug */,
+				2B3460B3725AA6F1486E767E530C5644 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
